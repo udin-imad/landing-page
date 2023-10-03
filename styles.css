@@ -4,6 +4,16 @@ body {
     box-sizing: border-box;
 }
 
+.header,
+.intro,
+.image,
+.call-action,
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero {
     background: #1F2937;
     color: #f9faf8;
@@ -12,9 +22,7 @@ body {
 }
 
 .header {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding-top: 16px;
 }
 
@@ -40,9 +48,7 @@ p {
 }
 
 .intro {
-    display: flex;
     height: 400px;
-    align-items: center;
     justify-content: space-between;
     gap: 40px;
     margin-top: 50px;
@@ -67,13 +73,10 @@ button {
 }
 
 .image {
-    display: flex;
     background: #a1a1a1;
     flex-shrink: 0;
-    width: 540px;
+    width: 530px;
     height: 222px;
-    align-items: center;
-    justify-content: center;
 }
 
 .information h1 {
@@ -139,9 +142,7 @@ button {
 }
 
 .call-action {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     background: #3882f6;
     width: 1200px;
     margin-top: 100px;
@@ -162,9 +163,6 @@ h2 {
 
 .footer {
     background: #1F2937;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 36px;
     color: #e5e7eb;
 }
